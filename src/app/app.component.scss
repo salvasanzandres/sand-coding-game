@@ -1,0 +1,19 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .board {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .board__cell {
+            padding: 20px;
+            border: 1px solid black;
+        }
+    }
+    .action {
+        align-self: center;
+        padding: 20px 0px;
+    }
+}
+
